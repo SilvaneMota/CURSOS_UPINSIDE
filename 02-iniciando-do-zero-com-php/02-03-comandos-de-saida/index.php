@@ -24,10 +24,14 @@ echo "<p> Faltam 2 {$day}s para o evento </p>";
 echo "<h3>{$hello}</h3>";
 echo "<h4>{$hello} {$code}</h4>";
 
+// mostrando que tem como utilizar aspas simples e dupla porém o cód. fica fora
 echo '<h3>'.$hello. "  ".$code."</h3>";
 
 ?>
+
+<!-- Comentário em HTML -->
 <h4><?= $hello;?></h4>
+
 <?php
 
 /**
